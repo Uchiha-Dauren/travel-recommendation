@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#153e37">
+  <meta name="description" content="Follow your curiosity with Roamly. Explore beaches, temples, and remarkable cities for your next adventure.">
+  <title>Roamly — Find your somewhere</title>
+  <link rel="stylesheet" href="./styles.css">
+  <script src="./travel_recommendation.js" defer></script>
+</head>
+<body data-page="home">
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <header class="site-header">
+    <a class="brand" href="./travel_recommendation.html" aria-label="Roamly home"><svg viewBox="0 0 40 40" aria-hidden="true"><circle cx="20" cy="20" r="17.5"/><path d="m26 12-3.5 10.5L12 26l3.5-10.5L26 12Z"/><path d="m15.5 15.5 7 7"/></svg><span>Roamly<span class="brand-dot">.</span></span></a>
+    <nav class="main-nav" aria-label="Main navigation"><a href="./travel_recommendation.html" aria-current="page">Home</a><a href="./about.html">About Us</a><a href="./contact.html">Contact Us</a></nav>
+    <form class="search-form" id="search-form" role="search">
+      <label class="sr-only" for="destination-search">Search for a beach, temple, country, or country name</label>
+      <svg class="search-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 4.5 4.5"/></svg>
+      <input id="destination-search" name="destination" type="search" placeholder="A beach, temple, or country…" autocomplete="off" required>
+      <button class="search-submit" type="submit">Search</button>
+      <button class="search-clear" id="clear-search" type="button">Clear</button>
+    </form>
+  </header>
+  <main id="main-content">
+    <section class="results-section page-width" id="search-results" aria-labelledby="results-title" aria-busy="false" hidden>
+      <div class="results-heading"><div><p class="eyebrow">A NEW DIRECTION</p><h1 id="results-title" tabindex="-1">Your next adventure</h1></div><p id="results-summary" class="results-summary" role="status" aria-live="polite"></p></div>
+      <div id="results-content"></div>
+      <p class="search-help">Keep exploring: try <strong>beaches</strong>, <strong>temples</strong>, <strong>countries</strong>, or a country name.</p>
+    </section>
+    <div id="home-introduction">
+      <section class="hero page-width" aria-labelledby="hero-title">
+        <div class="hero-shade"></div>
+        <div class="hero-content"><p class="eyebrow light"><span class="little-line"></span> LET CURIOSITY LEAD THE WAY</p><h1 id="hero-title">Find your<br><em>somewhere.</em></h1><p class="hero-description">Salt in the air. Stories in the streets.<br>Discover places that stay with you, long after you leave.</p><a class="button button-light" href="./contact.html">Book Now <span aria-hidden="true">↗</span></a></div>
+        <div class="hero-caption"><span class="location-pin" aria-hidden="true">⌾</span><div><span>A WORLD WORTH WANDERING</span><p>Your next chapter starts here.</p></div></div>
+        <div class="hero-side-note" aria-hidden="true">GO A LITTLE FURTHER</div>
+      </section>
+      <section class="discovery page-width" aria-labelledby="discovery-title">
+        <div class="discovery-intro"><p class="eyebrow">LESS SCROLLING. MORE EXPLORING.</p><h2 id="discovery-title">Where does your<br><em>curiosity take you?</em></h2></div>
+        <div class="discovery-content"><p>A quiet stretch of coast, an ancient place of wonder, or a city full of possibility. Find a little inspiration for the journey you want to take.</p><div class="suggestions" aria-label="Search inspiration"><button type="button" data-search-suggestion="beaches"><span aria-hidden="true">☀</span> Beaches <span aria-hidden="true">↗</span></button><button type="button" data-search-suggestion="temples"><span aria-hidden="true">⌂</span> Temples <span aria-hidden="true">↗</span></button><button type="button" data-search-suggestion="countries"><span aria-hidden="true">◎</span> Countries <span aria-hidden="true">↗</span></button></div><p class="suggestion-note">Choose an idea, then select Search to discover your places.</p></div>
+      </section>
+      <section class="travel-note page-width" aria-label="Our approach to travel"><span class="note-number">01 /</span><p>Make room for <em>the unexpected.</em></p><span>Thoughtful inspiration.<br>Extraordinary possibilities.</span></section>
+    </div>
+  </main>
+  <footer class="site-footer page-width"><a class="footer-brand" href="./travel_recommendation.html">Roamly.</a><p>A little curiosity goes a long way.</p><span>© 2026 Roamly · Travel inspiration demo · <a href="./IMAGE_CREDITS.md">Photo credits</a></span></footer>
+</body>
+</html>

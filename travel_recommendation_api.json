@@ -1,0 +1,76 @@
+{
+  "countries": [
+    {
+      "id": 1,
+      "name": "Australia",
+      "cities": [
+        {
+          "id": 1,
+          "name": "Sydney, Australia",
+          "imageUrl": "images/sydney.jpg",
+          "description": "Follow the harbour from the Opera House to waterfront neighbourhoods, then make time for Sydney's ocean beaches and coastal walks.",
+          "timeZone": "Australia/Sydney"
+        },
+        {
+          "id": 2,
+          "name": "Melbourne, Australia",
+          "imageUrl": "images/melbourne.jpg",
+          "description": "Discover a city of laneway cafés, galleries and neighbourhood markets, with a waterfront skyline stretching toward Port Phillip Bay.",
+          "timeZone": "Australia/Melbourne"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Japan",
+      "cities": [
+        {
+          "id": 3,
+          "name": "Tokyo, Japan",
+          "imageUrl": "images/tokyo.jpg",
+          "description": "Explore Tokyo one neighbourhood at a time, from Shinjuku's skyline and lively food streets to quiet gardens and traditional temples.",
+          "timeZone": "Asia/Tokyo"
+        },
+        {
+          "id": 4,
+          "name": "Kyoto, Japan",
+          "imageUrl": "images/kyoto.jpg",
+          "description": "Wander historic lanes, pause in peaceful temple gardens and take in the hillside setting of Kiyomizu-dera in Japan's former capital.",
+          "timeZone": "Asia/Tokyo"
+        }
+      ]
+    }
+  ],
+  "temples": [
+    {
+      "id": 5,
+      "name": "Angkor Wat, Cambodia",
+      "imageUrl": "images/angkor-wat.jpg",
+      "description": "Discover the towers, stone galleries and intricate carvings of Angkor Wat, a monumental temple complex near Siem Reap.",
+      "timeZone": "Asia/Phnom_Penh"
+    },
+    {
+      "id": 6,
+      "name": "Borobudur, Indonesia",
+      "imageUrl": "images/borobudur.jpg",
+      "description": "Explore the sculpted reliefs and bell-shaped stupas of this Buddhist temple, set amid the green landscapes of Central Java.",
+      "timeZone": "Asia/Jakarta"
+    }
+  ],
+  "beaches": [
+    {
+      "id": 7,
+      "name": "Bondi Beach, Australia",
+      "imageUrl": "images/bondi.jpg",
+      "description": "Find golden sand, rolling surf and a lively seaside neighbourhood at Bondi, with ocean views along the coastal path toward Coogee.",
+      "timeZone": "Australia/Sydney"
+    },
+    {
+      "id": 8,
+      "name": "Whitehaven Beach, Australia",
+      "imageUrl": "images/whitehaven.jpg",
+      "description": "Head to the Whitsundays for bright white sand and turquoise water, where Whitehaven Beach curves along the shores of Whitsunday Island.",
+      "timeZone": "Australia/Brisbane"
+    }
+  ]
+}
